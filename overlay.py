@@ -43,10 +43,8 @@ def videoGen(list, minecraftClip, timesRan, folderPath, directoryName, clipFolde
     
         timesRan = timesRan + 1
         clipIndex = clipIndex + 1
-
-
+        
     
     print("Complete!")
-
 
 videoGen(clipList, backgroundClip, timesRan, folderPath, directoryName, clipFolder, clipIndex, clipCount)
